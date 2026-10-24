@@ -1,15 +1,16 @@
-# Gemma 4 for Code-Mixed Hindi (Indic Code-Mix)
+# Gemma 4 for Code-Mixed Hindi
 
-Fine-tuning Google's Gemma 4 E2B with LoRA (Unsloth, free Colab T4 GPU) to convert
-between English, native-script code-mixed text, and casual romanized text.
-Built for HacktoberFest HackDay, Theme 3, Problem 3A.
+Fine-tuning Google's Gemma 4 E2B with LoRA (Unsloth, free Colab T4) to convert between
+English, native-script code-mixed Hindi, and casual romanized Hindi.
+HacktoberFest HackDay, Theme 3, Problem 3A.
 
 [Open the notebook in Colab](https://colab.research.google.com/github/vimalsamdramathanvs/gemma4-indic-codemix/blob/main/gemma4_finetune.ipynb)
+| Demo video: TBD (Drive or YouTube link)
 
 ## Problem
-People mix English with regional languages when chatting, using informal spelling,
-transliteration and mixed scripts. General models handle this inconsistently.
-This project teaches Gemma to do four conversions in Hindi.
+People mix English with regional languages in chat, with informal spelling and
+transliteration. General models handle this inconsistently. We fine-tune Gemma
+to do four Hindi conversions and measure whether it beats the plain model.
 
 ## Tasks
 | Task | Input | Output |
@@ -20,48 +21,79 @@ This project teaches Gemma to do four conversions in Hindi.
 | mixed_to_roman | Code-mixed, native script | Casual romanized Hindi |
 
 ## Dataset
-- Source: ai4bharat/IndicCMix, Hindi file (hi.parquet), about 104,800 sentences. Gated dataset.
-- Each sentence exists in four forms: English, native-script code-mixed, full native script, romanized casual.
-- Split by sentence BEFORE expanding into tasks, so no test sentence appears in training in any direction.
-- Test set: 10 held-out sentences x 4 tasks = 40 examples.
-- Training set: 2,400 examples drawn from the remaining sentences.
+- ai4bharat/IndicCMix, Hindi file (hi.parquet), gated dataset, about 104,800 sentences.
+- Split by sentence BEFORE creating the four tasks, so no test sentence appears in
+  training in any direction.
+- Test: 10 held-out sentences x 4 tasks = 40 examples.
+- Train: 2,400 examples from the remaining sentences (about 400 seen in 100 steps).
 
 ## Method
-- Base model: unsloth/gemma-4-E2B-it, 4-bit quantized
-- LoRA rank 8, alpha 8, language layers (attention and MLP)
-- 100 training steps, learning rate 2e-4, effective batch size 4, seed 3407
-- Training time: TBD minutes
-- Metric: chrF (sacrebleu), same test set and settings for both models
+| Setting | Value |
+|---|---|
+| Base model | unsloth/gemma-4-E2B-it, 4-bit |
+| LoRA | rank 8, alpha 8, language layers |
+| Steps / batch | 100 steps, effective batch 4 |
+| Learning rate | 2e-4 |
+| Seed | 3407 |
+| Training time | TBD |
+| Metric | chrF (sacrebleu), same test set for every model |
 
 ## Results
-| Task | Plain Gemma (chrF) | Fine-tuned (chrF) | Change |
+| Task | Plain | Prompted (3 examples) | Fine-tuned |
 |---|---|---|---|
 | en_to_mixed | 29.7 | TBD | TBD |
 | en_to_roman | 44.1 | TBD | TBD |
 | mixed_to_roman | 45.3 | TBD | TBD |
 | roman_to_en | 47.6 | TBD | TBD |
-| **Average** | **41.7** | **TBD** | **TBD** |
+| **Average** | **41.7** | TBD | TBD |
 
-Human naturalness rating (1 to 5, blind, 20 outputs per model): TBD
+Human naturalness rating (blind, 1 to 5, 20 outputs per model): TBD
+
+### Where fine-tuning helped, and where it didn't
+TBD: two or three honest sentences. Which tasks improved, which didn't, and why.
 
 ## Example outputs
-TBD: add 3 to 5 examples, including at least one failure.
+| Input | Reference | Plain | Fine-tuned |
+|---|---|---|---|
+| TBD | TBD | TBD | TBD |
 
-## Application
-A Gradio app shows the plain and fine-tuned models side by side for the same input,
-with a task dropdown. It runs inside Colab (see the notebook, last cells).
+Include 3 to 5 rows, and at least one where the fine-tuned model is wrong.
+
+## Error analysis
+Lowest-scoring 25 fine-tuned outputs, one label each:
+| Error type | Count |
+|---|---|
+| Valid spelling variant | TBD |
+| Dropped or added words | TBD |
+| Wrong script | TBD |
+| Extra explanation | TBD |
+| Meaning error | TBD |
+
+## Application (Gradio, runs in Colab)
+Code: [app/gradio_app.py](app/gradio_app.py)
+
+1. **Evidence mode.** Pick a held-out test example. The app shows the reference, both
+   models' outputs and each one's chrF score.
+2. **Auto-detect task.** Paste text and the app picks the conversion from the script
+   and common romanized Hindi words. This is a simple rule-based check, not a trained model.
+3. **Live chrF on your own reference.** Type the answer you expect and both models are scored.
+
+![Try it](screenshots/app_try_it.png)
+![Evidence mode](screenshots/app_evidence.png)
 
 ## How to run
-1. Open the notebook in Colab and select Runtime, Change runtime type, T4 GPU.
-2. Create a Hugging Face account, accept the IndicCMix terms, make a read token.
-3. Add the token in Colab Secrets as HF_TOKEN with Notebook access on.
-4. Run the cells in order. Do not run the original Step 3, 5 and 6 cells; they use the starter's sample code.
+1. Open the notebook in Colab, select Runtime, Change runtime type, T4 GPU.
+2. Make a Hugging Face account, accept the IndicCMix terms, create a read token.
+3. Add it in Colab Secrets as HF_TOKEN with Notebook access on.
+4. Run the cells in order. Skip the starter's original Step 3, 5 and 6 cells (sample IT-ticket code).
+5. The app link is temporary and only works while the Colab session runs.
 
 ## Limitations
-- The test set is small (40 examples), so differences of a few chrF points are noise.
-- chrF measures character overlap with one reference, so a natural alternative phrasing scores low.
-- Only 100 training steps, so about 400 examples were seen.
-- Hindi only so far.
+- 40 test examples, so differences of a few chrF points are noise.
+- chrF measures character overlap with one reference, so valid alternative spellings score low.
+- Only 100 training steps on a subset of the data.
+- Auto-detect is a heuristic and can misjudge short text.
+- Hindi only.
 
 ## Credits
 Dataset: AI4Bharat IndicCMix. Model: Google Gemma 4. Training: Unsloth.
