@@ -9,8 +9,8 @@ HacktoberFest HackDay, Theme 3, Problem 3A.
 
 ## Problem
 People mix English with regional languages in chat, with informal spelling and
-transliteration. General models handle this inconsistently. We fine-tune Gemma
-to do four Hindi conversions and measure whether it beats the plain model.
+transliteration. General models handle this inconsistently. We fine-tune Gemma to do
+four Hindi conversions and measure whether it beats the plain model.
 
 ## Tasks
 | Task | Input | Output |
@@ -36,7 +36,7 @@ to do four Hindi conversions and measure whether it beats the plain model.
 | Learning rate | 2e-4 |
 | Seed | 3407 |
 | Training time | TBD |
-| Metric | chrF (sacrebleu), same test set for every model |
+| Metric | chrF (sacrebleu), same test set and settings for every model |
 
 ## Results
 | Task | Plain | Prompted (3 examples) | Fine-tuned |
@@ -50,14 +50,14 @@ to do four Hindi conversions and measure whether it beats the plain model.
 Human naturalness rating (blind, 1 to 5, 20 outputs per model): TBD
 
 ### Where fine-tuning helped, and where it didn't
-TBD: two or three honest sentences. Which tasks improved, which didn't, and why.
+TBD: two or three honest sentences on which tasks improved, which didn't, and why.
 
 ## Example outputs
 | Input | Reference | Plain | Fine-tuned |
 |---|---|---|---|
 | TBD | TBD | TBD | TBD |
 
-Include 3 to 5 rows, and at least one where the fine-tuned model is wrong.
+Include at least one case where the fine-tuned model is wrong.
 
 ## Error analysis
 Lowest-scoring 25 fine-tuned outputs, one label each:
@@ -69,29 +69,47 @@ Lowest-scoring 25 fine-tuned outputs, one label each:
 | Extra explanation | TBD |
 | Meaning error | TBD |
 
-## Application (Gradio, runs in Colab)
-Code: [app/gradio_app.py](app/gradio_app.py)
+## Application
+A custom web app (FastAPI backend, hand-written HTML, CSS and JavaScript frontend)
+that runs inside the Colab session after training. A simpler Gradio version is also included.
 
-1. **Evidence mode.** Pick a held-out test example. The app shows the reference, both
-   models' outputs and each one's chrF score.
-2. **Auto-detect task.** Paste text and the app picks the conversion from the script
-   and common romanized Hindi words. This is a simple rule-based check, not a trained model.
-3. **Live chrF on your own reference.** Type the answer you expect and both models are scored.
+| File | What it does |
+|---|---|
+| [app/custom_frontend.py](app/custom_frontend.py) | Backend API and the web page |
+| [app/speed_patch.py](app/speed_patch.py) | Shorter outputs and cached evidence results |
+| [app/look_upgrade.py](app/look_upgrade.py) | Visual styling only |
+| [app/gradio_app.py](app/gradio_app.py) | Simple Gradio fallback |
 
-![Try it](screenshots/app_try_it.png)
-![Evidence mode](screenshots/app_evidence.png)
+Features:
+1. **Playground.** Compare plain and fine-tuned output side by side, with timings,
+   copy buttons, history and a dark/light toggle.
+2. **Auto-detect task.** Detects the script and common romanized Hindi words as you
+   type. This is a simple rule-based check, not a trained model.
+3. **Live chrF.** Type your own expected answer and both models are scored.
+4. **Evidence tab.** Browse held-out test sentences and see the reference, both outputs
+   and chrF. These reuse the outputs from the evaluation, so they load instantly.
+5. **Results tab.** Per-task chart from the measured scores.
+
+Speed: the speed patch caps live outputs at 60 tokens, switches Unsloth to inference
+mode and caches evidence results. Measured live latency on a T4: TBD seconds per
+comparison. Evidence-tab results are the same 100-token outputs used in the results table.
+
+![Playground](screenshots/app_playground.png)
+![Evidence](screenshots/app_evidence.png)
+![Results](screenshots/app_results.png)
 
 ## How to run
 1. Open the notebook in Colab, select Runtime, Change runtime type, T4 GPU.
 2. Make a Hugging Face account, accept the IndicCMix terms, create a read token.
 3. Add it in Colab Secrets as HF_TOKEN with Notebook access on.
 4. Run the cells in order. Skip the starter's original Step 3, 5 and 6 cells (sample IT-ticket code).
-5. The app link is temporary and only works while the Colab session runs.
+5. Run the app cells last. The public link is temporary and works only while the session runs.
 
 ## Limitations
 - 40 test examples, so differences of a few chrF points are noise.
 - chrF measures character overlap with one reference, so valid alternative spellings score low.
 - Only 100 training steps on a subset of the data.
+- Live outputs in the app are capped at 60 tokens, so long sentences may be cut off.
 - Auto-detect is a heuristic and can misjudge short text.
 - Hindi only.
 
