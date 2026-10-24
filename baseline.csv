@@ -1,0 +1,425 @@
+task,input,expected,plain_model,chrf
+mixed_to_roman,Text: उस denim brand की social media campaign बहुत viral हो गई अपने trendy hashtag #DenimLoveChallenge के साथ।,Us denim brand ki social media campaign viral ho gayi hai apne trendy hashtag #DenimLoveChallenge ke saath.,"Here are a few ways to rewrite that in casual Romanized Hindi, depending on the exact vibe you want:
+
+**Option 1: Very Casual & Conversational**
+
+> Us denim brand ki social media campaign bahut viral ho gayi apne trendy hashtag #DenimLoveChallenge ke saath.
+
+**Option 2: More Slangy/Youthful**
+
+> Woh denim brand ki social media campaign toh full viral ho gayi, apne trending hashtag #DenimLoveChallenge ke saath.
+
+**",58.97909529538834
+roman_to_en,Text: Balodabazar ke District aur Sessions Court ka udghatan 02 October 2013 ko Smt. ke dwara kiya gaya tha.,"The District and Sessions Court, Balodabazar was inaugurated on 02 October 2013 by Smt.","Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Option 1: Direct and Formal (Most accurate translation of the content)**
+
+> The inauguration of the Balodabazar District and Sessions Court was done by Smt. on October 2, 2013.
+
+**Option 2: Slightly More Conversational**
+
+> The Balodabazar District and Sessions Court was inaugurated by Smt. on",42.83647796561614
+mixed_to_roman,Text: भारत के corporate sector में कई salaried employees के लिए Provident Fund withdrawals का tax treatment एक बड़ी चिंता का विषय है रोज़मर्रा की ज़िंदगी में।,Bharat ke corporate sector mein bahut se salaried employees ke liye Provident Fund se paise nikalne par tax treatment ek bada chinta ka vishay hai roz.,"Here are a few options for rewriting that Hindi-English code-mixed text in casual Romanized Hindi, depending on the exact level of casualness you want:
+
+**Option 1: More direct and common usage**
+
+> Bharat ke corporate sector mein kai salaried employees ke liye Provident Fund withdrawals ka tax treatment ek badi chinta ka vishay hai rozmarra ki zindagi mein.
+
+**Option 2: Slightly more conversational (using more common phrasing)**
+
+> Corporate sector mein India mein",54.85169197201134
+en_to_mixed,"Text: The District and Sessions Court, Balodabazar was inaugurated on 02 October 2013 by Smt.","District और Sessions Court, Balodabazar का उद्घाटन 02 October 2013 को Smt. जी के द्वारा किया गया था।","Here are a few options for rewriting that in natural Hindi-English code-mixed text, depending on the desired level of formality and flow:
+
+**Option 1: More Formal/Standard Code-Mixing**
+
+> District and Sessions Court, Balodabazar ka inauguration 02 October 2013 ko Smt. [Name] dwara hua.
+
+**Option 2: More Conversational/Casual Code-Mixing**
+
+> Balodabazar ki District and Sessions",31.149041408428545
+en_to_mixed,"Text: They were invariably guided by the Manu, the Yagnavalkya, and other Smritis.","उनका मार्गदर्शन हमेशा Manu, Yagnavalkya और दूसरी Smritis से होता था।","Here are a few options for rewriting that sentence in natural Hindi-English code-mixed text, depending on the desired level of formality and flow:
+
+**Option 1: More direct and common code-mixing**
+
+> They were invariably guided by Manu, Yagnavalkya, aur other Smritis.
+
+**Option 2: Slightly more emphasis on the guidance aspect**
+
+> Unhe hamesha Manu, Yagnavalkya, aur doosre Smritis se guide",16.366353547844053
+en_to_roman,Text: Literature festivals celebrate Northeast India's folk traditions,Literature festivals mein Northeast India ke folk traditions ka jashna manaya jata hai,"Here are a few options, depending on the exact vibe you're going for:
+
+**Option 1: Super casual and chatty**
+
+> Literature festivals Northeast India ke folk traditions celebrate karte hain.
+
+**Option 2: A bit more natural flow**
+
+> Literature festivals mein Northeast India ki folk traditions celebrate hoti hain.
+
+**Option 3: Short and punchy (common in quick chats)**
+
+> Lit festivals Northeast India ke folk traditions celebrate karte hain.
+
+**Break",41.76173995520101
+en_to_mixed,"Text: The Climate Change Knowledge Centre offers the latest scientific developments, research papers, and journals in its kid's corner.","Climate Change Knowledge Centre के kid's corner में latest scientific developments, research papers और journals मिलते हैं।","Here are a few options for rewriting that in natural Hindi-English code-mixed text, depending on the desired level of mixing:
+
+**Option 1: More common, slightly formal mix**
+
+> ""The Climate Change Knowledge Centre mein latest scientific developments, research papers, aur journals aapko apne kid's corner mein milenge.""
+
+**Option 2: More casual and conversational**
+
+> ""Climate Change Knowledge Centre mein latest scientific updates, research papers, aur journals, sab kuch aap",48.953016803216585
+en_to_mixed,Text: The tax treatment of Provident Fund withdrawals is a major concern for many salaried employees in India's corporate sector daily.,भारत के corporate sector में कई salaried employees के लिए Provident Fund withdrawals का tax treatment एक बड़ी चिंता का विषय है रोज़मर्रा की ज़िंदगी में।,"Here are a few options for rewriting that sentence in natural Hindi-English code-mixed text, depending on the desired level of formality and flow:
+
+**Option 1: More Conversational & Common**
+
+> Provident Fund withdrawals ka tax treatment, India ke corporate sector mein salaried employees ke liye daily ek major concern hai.
+
+**Option 2: Slightly More Formal (Good for articles/news)**
+
+> Provident Fund withdrawals ka tax treatment, India ke corporate sector mein salaried employees ke liye roz",31.749286695282215
+en_to_mixed,Text: Local communities participate in Facebook groups for forest management discussions.,लोकल कम्युनिटीज़ Facebook groups में forest management की चर्चा के लिए भाग लेती हैं।,"Here are a few options for rewriting that in natural Hindi-English code-mixed text, depending on the desired level of mixing:
+
+**Option 1: More common, conversational mix**
+
+> Local communities Facebook groups mein forest management discussions ke liye participate karte hain.
+
+**Option 2: Slightly more formal/explanatory mix**
+
+> Local communities Facebook groups mein forest management discussions mein participate karte hain.
+
+**Option 3: Emphasizing the action (very common in spoken code-",18.024709112003524
+en_to_mixed,Text: Italy collaborates with India on museum e-ticketing,Italy भारत के साथ museum की e-ticketing पर collaborate कर रहा है।,"Here are a few options for rewriting ""Italy collaborates with India on museum e-ticketing"" as natural Hindi-English code-mixed text in the native script, depending on the desired level of mixing:
+
+**Option 1: More Formal/News Style (Common in digital media)**
+
+> Italy aur India museum e-ticketing par **collaborate** kar rahe hain.
+
+**Option 2: More Casual/Conversational**
+
+> Italy aur India museum e-ticketing ke",20.65293918455222
+roman_to_en,Text: Literature festivals mein Northeast India ke folk traditions ka jashna manaya jata hai,Literature festivals celebrate Northeast India's folk traditions,"Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Most Direct and Natural Translation:**
+
+> Literature festivals celebrate the folk traditions of Northeast India.
+
+**Slightly More Descriptive:**
+
+> Literature festivals are held to celebrate the folk traditions of Northeast India.
+
+**More Casual/Chatty Tone:**
+
+> Literature festivals celebrate the folk traditions from Northeast India.
+
+**Breakdown of the Hindi:**
+
+* **Literature festivals",37.263190472897804
+en_to_roman,Text: The denim brand's social media campaign went viral with its trendy hashtag #DenimLoveChallenge.,Us denim brand ki social media campaign viral ho gayi hai apne trendy hashtag #DenimLoveChallenge ke saath.,"Here are a few options, depending on how super casual you want to go:
+
+**Option 1: Standard Casual Chat Style**
+
+> Denim brand ka social media campaign viral ho gaya, uske trendy hashtag #DenimLoveChallenge ke saath.
+
+**Option 2: More Slang/Chatty**
+
+> Denim brand ka social media campaign toh viral ho gaya, #DenimLoveChallenge wala hashtag chal raha hai.
+
+**Option 3: Very Short & Punchy (",55.53161732443144
+roman_to_en,"Text: Ve hamesha Manu, Yagnavalkya, aur dusre Smritiyon ke dwara margdarshit hote the.","They were invariably guided by the Manu, the Yagnavalkya, and other Smritis.","Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Option 1: More Literal and Informative**
+
+> They were always guided by Manu, Yagnavalkya, and other Smritis.
+
+**Option 2: Slightly More Natural/Flowing**
+
+> They were always guided by Manu, Yagnavalkya, and other scriptures.
+
+**Option 3: Very Casual (Keeping the chat",38.13488571855837
+en_to_mixed,Text: The denim brand's social media campaign went viral with its trendy hashtag #DenimLoveChallenge.,उस denim brand की social media campaign बहुत viral हो गई अपने trendy hashtag #DenimLoveChallenge के साथ।,"Here are a few options for rewriting that in natural Hindi-English code-mixed text, depending on the desired level of mixing:
+
+**Option 1: More common, casual mixing**
+
+> Denim brand ka social media campaign **viral ho gaya** with its trendy hashtag **#DenimLoveChallenge**.
+
+**Option 2: Slightly more formal/descriptive mixing**
+
+> Denim brand ka social media campaign **viral ho gaya** uske trendy hashtag **#DenimLoveChallenge**",37.3220969001599
+mixed_to_roman,Text: कानूनी क्षेत्र में effective leadership के लिए एक मजबूत LinkedIn presence और Microsoft Office tools में proficiency होना ज़रूरी है।,Kaanooni kshetra mein prabhavi netritva ke liye majboot LinkedIn presence aur Microsoft Office tools mein pravinya zaroori hai.,"Here are a few options for rewriting that Hindi-English code-mixed text in casual Romanized Hindi, depending on the exact vibe you want:
+
+**Option 1: More direct and common usage**
+
+> Legal field mein effective leadership ke liye ek strong LinkedIn presence aur Microsoft Office tools mein proficiency hona zaroori hai.
+
+**Option 2: Slightly more conversational**
+
+> Legal area mein accha leadership dikhane ke liye, LinkedIn par strong presence aur Microsoft Office tools ki knowledge hona",40.78334813613497
+roman_to_en,Text: Us denim brand ki social media campaign viral ho gayi hai apne trendy hashtag #DenimLoveChallenge ke saath.,The denim brand's social media campaign went viral with its trendy hashtag #DenimLoveChallenge.,"Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Option 1: Casual & Direct (Most common for chat)**
+
+> That denim brand's social media campaign went viral with their trendy hashtag #DenimLoveChallenge.
+
+**Option 2: Slightly More Enthusiastic**
+
+> That denim brand's social media campaign went viral with their trendy hashtag #DenimLoveChallenge!
+
+**Option 3: More",54.10018442730934
+roman_to_en,Text: Bharat ke corporate sector mein bahut se salaried employees ke liye Provident Fund se paise nikalne par tax treatment ek bada chinta ka vishay hai roz.,The tax treatment of Provident Fund withdrawals is a major concern for many salaried employees in India's corporate sector daily.,"Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Option 1: More Direct and Informative (Good for general understanding)**
+
+> ""For many salaried employees in the corporate sector in India, the tax treatment when withdrawing money from the Provident Fund is a big concern every day.""
+
+**Option 2: More Casual and Conversational (Closer to a chat style)**
+
+> ""For a lot of salaried employees in",47.99495768856701
+en_to_mixed,Text: Literature festivals celebrate Northeast India's folk traditions,लिटरेचर फेस्टिवल्स में Northeast India की folk traditions का जश्न मनाया जाता है,"Here are a few options for rewriting ""Literature festivals celebrate Northeast India's folk traditions"" as natural Hindi-English code-mixed text in native script, depending on the desired level of mixing:
+
+**Option 1: More common and flowing code-mixing**
+
+> Literature festivals **Northeast India** ke folk traditions ko celebrate karte hain.
+
+**Option 2: Slightly more formal/academic tone**
+
+> Literature festivals **Northeast India** ki folk traditions ko celebrate karte hain.",17.200531455532
+roman_to_en,Text: Local samuday Facebook groups mein forest management ki charcha ke liye hissa lete hain.,Local communities participate in Facebook groups for forest management discussions.,"Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Option 1: Direct and Clear (Most common for this type of message)**
+
+> ""We join the forest management discussions in local community Facebook groups.""
+
+**Option 2: More Casual/Conversational**
+
+> ""We participate in the forest management discussions on local community Facebook groups.""
+
+**Option 3: Slightly more active voice**
+
+> ""We take",43.36274333904302
+mixed_to_roman,Text: लिटरेचर फेस्टिवल्स में Northeast India की folk traditions का जश्न मनाया जाता है,Literature festivals mein Northeast India ke folk traditions ka jashna manaya jata hai,"Here are a few ways to rewrite that in casual Romanized Hindi, depending on the exact vibe you want:
+
+**Option 1: Very Casual & Conversational**
+
+> Literature festivals mein Northeast India ki folk traditions ka celebration hota hai.
+
+**Option 2: Slightly More Flowing**
+
+> Literature festivals mein Northeast India ki folk traditions ko celebrate kiya jaata hai.
+
+**Option 3: Short and Punchy**
+
+> Literature festivals mein Northeast India ki folk traditions celebrate hoti",41.740815062828986
+mixed_to_roman,"Text: उनका मार्गदर्शन हमेशा Manu, Yagnavalkya और दूसरी Smritis से होता था।","Ve hamesha Manu, Yagnavalkya, aur dusre Smritiyon ke dwara margdarshit hote the.","Here are a few ways to rewrite that Hindi-English code-mixed text in casual Romanized Hindi, depending on the exact vibe you want:
+
+**Option 1: Very Casual & Conversational**
+
+> Unka guidance hamesha Manu, Yagnavalkya aur doosri Smritis se hota tha.
+
+**Option 2: Slightly More Flowing**
+
+> Unka guidance hamesha Manu, Yagnavalkya aur doosri Smritis se hota",32.78981681031565
+roman_to_en,"Text: Meghalaya mein, local chefs ne apni culinary skills dikhayi traditional dishes jaise Nakhamitchi aur Dohkhlieh banaakar, Google se research kiye gaye fusion recipes ke saath serve kiya.","In Meghalaya, local chefs showcased their culinary skills by preparing traditional dishes like Nakhamitchi and Dohkhlieh, served with a side of Google-researched fusion recipes.","Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Option 1: Natural and Descriptive (Best for general understanding)**
+
+> In Meghalaya, local chefs showcased their culinary skills by serving traditional dishes like Nakhamitchi and Dohkhlieh along with fusion recipes researched from Google.
+
+**Option 2: More Casual/Chatty**
+
+> In Meghalaya, local chefs showed off their cooking skills by serving traditional",61.619051436935024
+roman_to_en,Text: Kaanooni kshetra mein prabhavi netritva ke liye majboot LinkedIn presence aur Microsoft Office tools mein pravinya zaroori hai.,Effective leadership in the legal sector requires a strong LinkedIn presence and proficiency in Microsoft Office tools.,"Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Option 1: Direct and Professional (Best for a business context)**
+
+> ""For effective leadership in the legal field, a strong LinkedIn presence and proficiency in Microsoft Office tools are necessary.""
+
+**Option 2: Slightly More Casual/Conversational**
+
+> ""To have effective leadership in the legal sector, you need a strong LinkedIn presence and skills in Microsoft Office tools",55.285736320671134
+mixed_to_roman,Text: लोकल कम्युनिटीज़ Facebook groups में forest management की चर्चा के लिए भाग लेती हैं।,Local samuday Facebook groups mein forest management ki charcha ke liye hissa lete hain.,"Here are a few ways to rewrite that in casual Romanized Hindi, depending on the exact vibe you want:
+
+**Option 1: Very Casual & Conversational**
+
+> Local communities Facebook groups mein forest management ki discussion ke liye join karte hain.
+
+**Option 2: Slightly More Natural Flow**
+
+> Local communities Facebook groups mein forest management par baat karne ke liye participate karte hain.
+
+**Option 3: Keeping it closer to the original structure but casual**
+
+> Local communities",36.02152134483633
+en_to_mixed,"Text: In Meghalaya, local chefs showcased their culinary skills by preparing traditional dishes like Nakhamitchi and Dohkhlieh, served with a side of Google-researched fusion recipes.","मेघालया में, local chefs ने अपने culinary skills दिखाए traditional dishes बनाकर जैसे कि Nakhamitchi और Dohkhlieh, जिसके साथ serve किया गया Google-researched fusion recipes भी।","Here are a few options for rewriting that in natural Hindi-English code-mixed text, depending on the desired level of mixing:
+
+**Option 1: More Balanced Code-Mixing (Common in casual conversation)**
+
+> Meghalaya mein, local chefs ne apne culinary skills dikhaye by preparing traditional dishes jaise Nakhamitchi aur Dohkhlieh, served with a side of Google-researched fusion recipes.
+
+**Option 2: Slightly More Hindi Infused (More",42.204806210381534
+en_to_roman,"Text: In Meghalaya, local chefs showcased their culinary skills by preparing traditional dishes like Nakhamitchi and Dohkhlieh, served with a side of Google-researched fusion recipes.","Meghalaya mein, local chefs ne apni culinary skills dikhayi traditional dishes jaise Nakhamitchi aur Dohkhlieh banaakar, Google se research kiye gaye fusion recipes ke saath serve kiya.","Here are a few options, depending on how super casual you want to go:
+
+**Option 1: Standard Casual Chat Style**
+
+> Meghalaya mein, local chefs ne apne cooking skills dikhaye, traditional dishes jaise Nakhamitchi aur Dohkhlieh banaye, aur side mein Google se research kiye hue fusion recipes serve kiye.
+
+**Option 2: More Slang/Chatty**
+
+> Meghalaya mein, local chefs ne apne cooking skills dik",64.71033481757358
+en_to_roman,"Text: The District and Sessions Court, Balodabazar was inaugurated on 02 October 2013 by Smt.",Balodabazar ke District aur Sessions Court ka udghatan 02 October 2013 ko Smt. ke dwara kiya gaya tha.,"Here are a few options, depending on how casual you want to go:
+
+**Option 1: Standard Casual Chat Style**
+
+> District and Sessions Court, Balodabazar open hua tha 02 October 2013 ko Smt. [Name] ne.
+
+**Option 2: More Chatty/Slangy**
+
+> Balodabazar ka District and Sessions Court 2 October 2013 ko Smt. [Name] ne inaugur",43.00289762851302
+mixed_to_roman,"Text: मेघालया में, local chefs ने अपने culinary skills दिखाए traditional dishes बनाकर जैसे कि Nakhamitchi और Dohkhlieh, जिसके साथ serve किया गया Google-researched fusion recipes भी।","Meghalaya mein, local chefs ne apni culinary skills dikhayi traditional dishes jaise Nakhamitchi aur Dohkhlieh banaakar, Google se research kiye gaye fusion recipes ke saath serve kiya.","Here are a few options for rewriting that Hindi-English code-mixed text in casual Romanized Hindi, depending on the exact vibe you want:
+
+**Option 1: Very Casual & Conversational**
+
+> Meghalaya mein, local chefs ne apne culinary skills dikhaye traditional dishes bana kar jaise ki Nakhamitchi aur Dohkhlieh, jiske saath serve kiya gaya Google-researched fusion recipes bhi.
+
+**Option 2: Slightly More Flowing**",63.100500224780646
+mixed_to_roman,"Text: District और Sessions Court, Balodabazar का उद्घाटन 02 October 2013 को Smt. जी के द्वारा किया गया था।",Balodabazar ke District aur Sessions Court ka udghatan 02 October 2013 ko Smt. ke dwara kiya gaya tha.,"Here are a few ways to rewrite that in casual Romanized Hindi, depending on the exact level of casualness you want:
+
+**Option 1: Standard Casual (Most common)**
+
+> District aur Sessions Court, Balodabazar ka inauguration 02 October 2013 ko Smt. ji ke dwara kiya gaya tha.
+
+**Option 2: More Conversational/Chatty**
+
+> District aur Sessions Court, Balodabazar ka opening 2 October",52.824869947158874
+roman_to_en,"Text: Climate Change Knowledge Centre apne kid's corner mein sabse naye vaigyanik vikas, research papers, aur journals offer karta hai.","The Climate Change Knowledge Centre offers the latest scientific developments, research papers, and journals in its kid's corner.","Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Option 1: Direct and Informative (Good for general understanding)**
+
+> The Climate Change Knowledge Centre offers the latest scientific developments, research papers, and journals in its kids' corner.
+
+**Option 2: More Casual and Engaging (Better for a chat context)**
+
+> The Climate Change Knowledge Centre has the newest scientific updates, research papers, and journals in its",61.50068175766553
+en_to_mixed,Text: Effective leadership in the legal sector requires a strong LinkedIn presence and proficiency in Microsoft Office tools.,कानूनी क्षेत्र में effective leadership के लिए एक मजबूत LinkedIn presence और Microsoft Office tools में proficiency होना ज़रूरी है।,"Here are a few options for rewriting that in natural Hindi-English code-mixed text, depending on the desired level of mixing:
+
+**Option 1: More common, slightly formal mix**
+
+> Legal sector mein effective leadership ke liye strong LinkedIn presence aur Microsoft Office tools mein proficiency chahiye.
+
+**Option 2: More casual, conversational mix**
+
+> Legal field mein effective leadership ke liye strong LinkedIn presence aur MS Office tools ki proficiency zaroori hai.
+
+**Option 3:",33.19779414043933
+en_to_roman,Text: Effective leadership in the legal sector requires a strong LinkedIn presence and proficiency in Microsoft Office tools.,Kaanooni kshetra mein prabhavi netritva ke liye majboot LinkedIn presence aur Microsoft Office tools mein pravinya zaroori hai.,"Here are a few options, depending on how casual you want to go:
+
+**Option 1: Standard Casual Chat Style**
+
+> Legal field mein effective leadership ke liye strong LinkedIn presence aur Microsoft Office tools ki proficiency chahiye.
+
+**Option 2: More Slang/Chatty**
+
+> Legal sector mein accha leadership dikhane ke liye LinkedIn pe strong hona aur MS Office tools aane chahiye.
+
+**Option 3: Very Short & Punchy**
+
+> Law mein good",35.347264229608626
+roman_to_en,Text: Italy ne museum e-ticketing par India ke saath sahyog kiya hai,Italy collaborates with India on museum e-ticketing,"Here are a few ways to translate that casual Romanized Hindi chat message into English, depending on the desired tone:
+
+**Most Direct and Neutral Translation:**
+
+> Italy has cooperated with India on museum e-ticketing.
+
+**Slightly More Natural/Conversational:**
+
+> Italy has partnered with India on museum e-ticketing.
+
+**More Formal (If the context requires it):**
+
+> Italy has collaborated with India on museum e-ticketing.
+
+**Breakdown",34.263551951041705
+en_to_roman,Text: Italy collaborates with India on museum e-ticketing,Italy ne museum e-ticketing par India ke saath sahyog kiya hai,"Here are a few options, depending on how casual you want to go:
+
+**Option 1: Standard Casual Chat**
+
+> Italy India ke saath museum e-ticketing pe collab kar raha hai.
+
+**Option 2: More Slangy/Quick Chat**
+
+> Italy aur India museum e-ticketing pe mil rahe hain.
+
+**Option 3: Very Short/Text Speak Style**
+
+> Italy + India museum e-ticketing collab.
+
+**Breakdown",33.64190750522543
+mixed_to_roman,Text: Italy भारत के साथ museum की e-ticketing पर collaborate कर रहा है।,Italy ne museum e-ticketing par India ke saath sahyog kiya hai,"Here are a few ways to rewrite that in casual Romanized Hindi, depending on the exact vibe you want:
+
+**Option 1: Very Casual & Conversational**
+
+> Italy, India ke saath museum ki e-ticketing pe collaborate kar raha hai.
+
+**Option 2: Slightly More Standard Casual**
+
+> Italy, India ke saath museum ki e-ticketing par collaboration kar raha hai.
+
+**Option 3: Focusing on the Action (More like a news snippet spoken",29.0951033701775
+mixed_to_roman,"Text: Climate Change Knowledge Centre के kid's corner में latest scientific developments, research papers और journals मिलते हैं।","Climate Change Knowledge Centre apne kid's corner mein sabse naye vaigyanik vikas, research papers, aur journals offer karta hai.","Here are a few options for rewriting that Hindi-English code-mixed text in casual Romanized Hindi, depending on the exact vibe you want:
+
+**Option 1: Very Casual & Conversational**
+
+> Climate Change Knowledge Centre ke kids' corner mein latest scientific developments, research papers aur journals milte hain.
+
+**Option 2: Slightly More Flowing**
+
+> Climate Change Knowledge Centre ke kids' corner mein latest scientific updates, research papers, aur journals milte hain.",42.62904244226835
+en_to_roman,Text: Local communities participate in Facebook groups for forest management discussions.,Local samuday Facebook groups mein forest management ki charcha ke liye hissa lete hain.,"Here are a few options, depending on how casual you want to go:
+
+**Option 1: Very casual, common chat style**
+
+> Local communities Facebook groups mein forest management discussions ke liye participate karte hain.
+
+**Option 2: Slightly more conversational**
+
+> Local log Facebook groups mein forest management discuss karte hain.
+
+**Option 3: Short and punchy (like a quick text)**
+
+> Local communities Facebook groups pe forest management discuss karte hain.
+
+**Breakdown",35.2848246751952
+en_to_roman,"Text: The Climate Change Knowledge Centre offers the latest scientific developments, research papers, and journals in its kid's corner.","Climate Change Knowledge Centre apne kid's corner mein sabse naye vaigyanik vikas, research papers, aur journals offer karta hai.","Here are a few options, depending on how super casual you want to go:
+
+**Option 1: Standard Casual Chat Style**
+
+> Climate Change Knowledge Centre mein latest scientific updates, research papers, aur journals milte hain uske kid's corner mein.
+
+**Option 2: More Slang/Chatty**
+
+> Climate Change Knowledge Centre mein latest science stuff, research papers, aur journals milte hain uske kids corner mein.
+
+**Option 3: Very Short",46.77109641023394
+en_to_roman,"Text: They were invariably guided by the Manu, the Yagnavalkya, and other Smritis.","Ve hamesha Manu, Yagnavalkya, aur dusre Smritiyon ke dwara margdarshit hote the.","Here are a few options, depending on the exact vibe you're going for, but all are very casual chat style:
+
+**Option 1 (Most common/direct):**
+
+> Woh hamesha Manu, Yagnavalkya, aur doosre Smritis se guide hote the.
+
+**Option 2 (More emphasis on ""guided by""):**
+
+> Unhe hamesha Manu, Yagnavalkya, aur baaki Smritis guide karte the.",40.76458786365531
+en_to_roman,Text: The tax treatment of Provident Fund withdrawals is a major concern for many salaried employees in India's corporate sector daily.,Bharat ke corporate sector mein bahut se salaried employees ke liye Provident Fund se paise nikalne par tax treatment ek bada chinta ka vishay hai roz.,"Here are a few options, depending on how casual you want to go:
+
+**Option 1: Standard Casual Chat Style**
+
+> Provident Fund withdrawal ka tax treatment, India ke corporate sector mein salaried employees ke liye daily ek badi concern hai.
+
+**Option 2: More Slang/Very Casual**
+
+> PF withdrawal ka tax wala scene, India ke corporate mein salaried log ke liye roz ki tension hai.
+
+**Option 3: Short and Punchy**
+
+> PF withdrawal",44.23002835692952
